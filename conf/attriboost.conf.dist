@@ -1,42 +1,42 @@
 #
-# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+# 版权所有 (C) 2016+ AzerothCore <www.azerothcore.org>, 根据GNU AGPL v3许可证发布: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
 #
 
 [worldserver]
 
 ########################################
-# Attriboost Configuration
+# Attriboost 配置
 ########################################
 #
 #    Attriboost.Enable
-#        Description: Enable/Disable the librarian/bonus attributes.
-#        Default:     0 - Disabled
-#                     1 - Enabled
+#        描述：启用/禁用图书管理员/额外属性。
+#        默认值：     0 - 禁用
+#                     1 - 启用
 #
 
-Attriboost.Enable = 0
+Attriboost.Enable = 1
 
 #
 #    Attriboost.ResetCost
-#        Description: The cost of resetting attributes in copper.
-#        Default:     2500000 (250 gold)
+#        描述：以铜币计算的重置属性的成本。
+#        默认值：     2500000 (250金)
 #
 
 Attriboost.ResetCost = 2500000
 
 #
 #    Attriboost.DisablePvP
-#        Description: Enable/Disable the attributes in PvP combat.
-#                     0 - Disabled
-#        Default:     1 - Enabled
+#        描述：在PvP战斗中启用/禁用属性。
+#                     0 - 禁用
+#        默认值：     1 - 启用
 #
 
 Attriboost.DisablePvP = 1
 
 #
 #    Attriboost.Max.*
-#        Description: The max value each attribute can be allocated.
-#        Default:     100
+#        描述：每个属性可以分配的最大值。
+#        默认值：     100
 #
 
 Attriboost.Max.Stamina = 100
